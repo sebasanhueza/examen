@@ -1,0 +1,71 @@
+package domain;
+
+public class Domain {
+	
+	public Domain(){
+		
+	}
+
+private String fecha;
+	
+	private int celcius;
+	
+	private int kelvin;
+
+	/**
+	 * @param fecha
+	 * @param celcius
+	 * @param kelvin
+	 */
+	public Domain(String fecha, int celcius, int kelvin) {
+		super();
+		this.fecha = fecha;
+		this.celcius = celcius;
+		this.kelvin = kelvin;
+	}
+
+	/**
+	 * @return the fecha
+	 */
+	public String getFecha() {
+		return fecha;
+	}
+
+	/**
+	 * @param fecha the fecha to set
+	 */
+	public void setFecha(String fecha) {
+		this.fecha = fecha;
+	}
+
+	/**
+	 * @return the celcius
+	 */
+	public int getCelcius() {
+		return celcius;
+	}
+
+	/**
+	 * @param celcius the celcius to set
+	 */
+	public void setCelcius(int celcius) {
+		this.celcius = celcius;
+	}
+
+	/**
+	 * @return the kelvin
+	 */
+	public int getKelvin() {
+		return kelvin;
+	}
+
+	/**
+	 * @param kelvin the kelvin to set
+	 */
+	public void setKelvin(int kelvin) {
+		this.kelvin = kelvin;
+	}
+	
+	
+	
+}
